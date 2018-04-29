@@ -1,2 +1,2 @@
-# makeMyMana
-Magic the Gathering mana base generator for draft/sealed decks
+# MtG Mana Base Calculator
+Magic the Gathering mana base calculator for draft/sealed decks
