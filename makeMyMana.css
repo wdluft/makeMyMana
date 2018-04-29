@@ -1,0 +1,13 @@
+label{
+	display: inline-block;
+	float: left;
+}
+
+input{
+	display: inline-block;
+	float: left;
+}
+
+.form-group{
+	width: 50%;
+}
