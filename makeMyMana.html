@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	
+
 </head>
 
 <body>
@@ -15,37 +15,37 @@
 		<h1>Mana Base Calculator</h1>
 
 	<!-- FORM TO GET INPUT FROM USER -->
-		<form class="form-horizontal">
+		<form class="form-horizontal" id="form">
 			<div class="form-group">
 				<label for="landCount">How much land do you need?</label>
 				<input id="landCount" class="form-control" type="number" value="23">
 			</div>
 			<div class="form-group">
 				<label for="whitePips">How many white mana symbols do you have?</label>
-				<input id="whitePips" class="form-control" type="number" >
+				<input id="whitePips" class="form-control" type="number" value="0" >
 			</div>
 			<div class="form-group">
 				<label for="bluePips">How many blue mana symbols do you have?</label>
-				<input id="bluePips" class="form-control" type="number" >
+				<input id="bluePips" class="form-control" type="number" value="0" >
 			</div>
 			<div class="form-group">
 				<label for="blackPips">How many black mana symbols do you have?</label>
-				<input id="blackPips" class="form-control" type="number" >
+				<input id="blackPips" class="form-control" type="number" value="0" >
 			</div>
 			<div class="form-group">
 				<label for="redPips">How many red mana symbols do you have?</label>
-				<input id="redPips" class="form-control" type="number" >
+				<input id="redPips" class="form-control" type="number" value="0" >
 			</div>
 			<div class="form-group">
 				<label for="greenPips">How many green mana symbols do you have?</label>
-				<input id="greenPips" class="form-control" type="number" >
+				<input id="greenPips" class="form-control" type="number" value="0" >
 			</div>
 			<button type="submit" class="btn btn-default">Submit</button>
 		</form>
 
 		<p>
 			<ul class="colorsNeeded">
-				
+
 			</ul>
 		</p>
 	</div>
